@@ -59,20 +59,6 @@
 | [screenshots/](screenshots) | кадры этапов полёта |
 | [craft/lunar_prospector.craft](craft/lunar_prospector.craft) | файл ракеты из KSP (22 детали, версия игры 1.12.3). Чтобы открыть у себя, скопируйте его в папку `saves/имя_сохранения/Ships/VAB` |
 
-## Как запустить
-
-Нужны KSP 1.12 с модом [kRPC](https://krpc.github.io/krpc) и Python 3.
-
-```
-pip install -r requirements.txt
-```
-
-1. Открыть KSP, поставить ракету на старт, запустить сервер kRPC.
-2. В одном окне запустить запись данных: `python telemetry.py flight.csv`
-3. В другом окне по очереди: `python ascent.py`, `python mun_transfer.py`, `python mun_capture.py`, `python mun_impact.py`
-4. После полёта построить графики: `python plot_flight_v2.py flight.csv`
-
-Подробнее в [ksp/README.md](ksp/README.md).
 
 ## Команда «Lunar Prospector»
 
