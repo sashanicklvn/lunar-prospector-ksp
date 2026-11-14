@@ -53,11 +53,11 @@
 | Папка / файл | Что это |
 |---|---|
 | [docs/research.md](docs/research.md) | ресерч-док: реальная миссия, физика полёта, формулы, расчёт ΔV, источники |
-| [ksp/](ksp) | скрипты полёта: взлёт, перелёт, торможение, падение, запись телеметрии. Как запускать: [ksp/README.md](ksp/README.md) |
+| [ksp/](ksp) | скрипты полёта: взлёт, перелёт, торможение, падение, запись телеметрии |
 | [flight/final3.csv](flight/final3.csv) | телеметрия итогового полёта |
 | [flight/plot_flight_v2.py](flight/plot_flight_v2.py) | скрипт, который строит графики по телеметрии |
 | [screenshots/](screenshots) | кадры этапов полёта |
-| [craft/lunar_prospector.craft](craft/lunar_prospector.craft) | файл ракеты из KSP (22 детали, версия игры 1.12.3). Чтобы открыть у себя, скопируйте его в папку `saves/имя_сохранения/Ships/VAB` |
+| [craft/lunar_prospector.craft](craft/lunar_prospector.craft) | файл ракеты из KSP |
 
 
 ## Команда «Lunar Prospector»
